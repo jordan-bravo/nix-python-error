@@ -1,0 +1,11 @@
+autopep8==1.6.0
+certifi
+enum34
+google-cloud-ndb==1.11 #Bug with NDB in later versions
+google-cloud-storage==1.30
+protobuf
+requests==2.20
+requests-toolbelt==0.10.1
+setuptools
+six
+werkzeug==0.16.1
