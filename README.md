@@ -11,7 +11,6 @@ programs.nix-ld = {
   ];
 };
 ```
-- Ensure nix is installed.
 - Clone repo, change into directory.
 - If you don't have direnv, run the command `nix develop` to activate the development flake.
 - Run `./bin/install.sh`
