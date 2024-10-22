@@ -2,6 +2,15 @@
 
 ## Setup
 
+- On NixOS, ensure your system has the following:
+```nix
+programs.nix-ld = {
+  enable = true;
+  libraries = with pkgs; [
+    stdenv.cc.cc.lib
+  ];
+};
+```
 - Ensure nix is installed.
 - Clone repo, change into directory.
 - If you don't have direnv, run the command `nix develop` to activate the development flake.
