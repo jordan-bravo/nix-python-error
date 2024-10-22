@@ -1,4 +1,4 @@
-# Python 2 Project with Google Datastore on Nix
+# Python 2 Project with Google Datastore on NixOS
 
 ## Setup
 
